@@ -5,7 +5,7 @@ When we have a broken arm, radiologists help save the day - and the bone. These 
 Existing methods of interpreting chest X-ray images classify them into a list of findings. There is currently no specification of their locations on the image which sometimes leads to inexplicable results. A solution for localizing findings on chest X-ray images is needed for providing doctors with more meaningful diagnostic assistance.
 
 
-## Using the detectron2 training approach
+## Working with detectron2
 Detectron2 is Facebook AI Research's next generation software system that implements state-of-the-art object detection algorithms. It is a ground-up rewrite of the previous version, Detectron, and it originates from maskrcnn-benchmark.
 
 [Link to the Repository](https://github.com/facebookresearch/detectron2)
