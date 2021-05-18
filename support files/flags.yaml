@@ -1,0 +1,23 @@
+aug_kwargs:
+  HorizontalFlip:
+    p: 0.5
+  RandomBrightnessContrast:
+    p: 0.5
+  ShiftScaleRotate:
+    p: 0.5
+    rotate_limit: 10
+    scale_limit: 0.15
+base_lr: 0.001
+debug: false
+eval_period: 1000
+imgdir_name: vinbigdata-chest-xray-resized-png-256x256
+ims_per_batch: 2
+iter: 10000
+lr_scheduler_name: WarmupCosineLR
+num_workers: 4
+outdir: results/v9
+roi_batch_size_per_image: 512
+seed: 111
+split_mode: valid20
+train_data_type: original
+use_class14: false
